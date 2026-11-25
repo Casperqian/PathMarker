@@ -1,0 +1,463 @@
+{
+  "concepts": [
+    {
+      "concept": "adipocyte"
+    },
+    {
+      "concept": "apoptosis"
+    },
+    {
+      "concept": "endothelial cell"
+    },
+    {
+      "concept": "eosinophil"
+    },
+    {
+      "concept": "eosinophils"
+    },
+    {
+      "concept": "epithelial cell"
+    },
+    {
+      "concept": "erythrocyte"
+    },
+    {
+      "concept": "fibroblast"
+    },
+    {
+      "concept": "fibroblasts"
+    },
+    {
+      "concept": "ganglion cells"
+    },
+    {
+      "concept": "goblet cell"
+    },
+    {
+      "concept": "hepatocyte"
+    },
+    {
+      "concept": "infiltration"
+    },
+    {
+      "concept": "inflammatory cell"
+    },
+    {
+      "concept": "inflammatory infiltrate"
+    },
+    {
+      "concept": "lymphocyte"
+    },
+    {
+      "concept": "lymphocytic infiltrate"
+    },
+    {
+      "concept": "macrophage"
+    },
+    {
+      "concept": "macrophages"
+    },
+    {
+      "concept": "mitosis"
+    },
+    {
+      "concept": "mitotic"
+    },
+    {
+      "concept": "mononuclear cells"
+    },
+    {
+      "concept": "neoplastic cell"
+    },
+    {
+      "concept": "neutrophil"
+    },
+    {
+      "concept": "neutrophils"
+    },
+    {
+      "concept": "plasma cell"
+    },
+    {
+      "concept": "plasma cells"
+    },
+    {
+      "concept": "pneumocyte"
+    },
+    {
+      "concept": "polymorphonuclear cells"
+    },
+    {
+      "concept": "smooth muscle cell"
+    },
+    {
+      "concept": "stromal cell"
+    },
+    {
+      "concept": "non tumor"
+    },
+    {
+      "concept": "tumor"
+    },
+    {
+      "concept": "acinus"
+    },
+    {
+      "concept": "actinic keratosis"
+    },
+    {
+      "concept": "adenocarcinoma"
+    },
+    {
+      "concept": "adenocarcinoma high grade"
+    },
+    {
+      "concept": "adenocarcinoma low grade"
+    },
+    {
+      "concept": "adenoma"
+    },
+    {
+      "concept": "adenoma high grade"
+    },
+    {
+      "concept": "adenoma low grade"
+    },
+    {
+      "concept": "adenosis"
+    },
+    {
+      "concept": "adipose tissue"
+    },
+    {
+      "concept": "alveoli"
+    },
+    {
+      "concept": "alveolus"
+    },
+    {
+      "concept": "apocrine glands"
+    },
+    {
+      "concept": "basal cell carcinoma"
+    },
+    {
+      "concept": "benign"
+    },
+    {
+      "concept": "benign lesion"
+    },
+    {
+      "concept": "benign phyllodes tumor"
+    },
+    {
+      "concept": "benign tumor"
+    },
+    {
+      "concept": "bronchial cartilage"
+    },
+    {
+      "concept": "bronchial glands"
+    },
+    {
+      "concept": "carcinoma"
+    },
+    {
+      "concept": "carcinoma in situ"
+    },
+    {
+      "concept": "chronic inflammation fibrosis"
+    },
+    {
+      "concept": "collagen"
+    },
+    {
+      "concept": "connective tissue"
+    },
+    {
+      "concept": "desmoplasia"
+    },
+    {
+      "concept": "detritus"
+    },
+    {
+      "concept": "disease"
+    },
+    {
+      "concept": "duct"
+    },
+    {
+      "concept": "ductal carcinoma"
+    },
+    {
+      "concept": "ductal carcinoma in situ (high-grade)"
+    },
+    {
+      "concept": "ductal carcinoma in situ (low-grade)"
+    },
+    {
+      "concept": "elastic fibers"
+    },
+    {
+      "concept": "epidermis"
+    },
+    {
+      "concept": "epithelium"
+    },
+    {
+      "concept": "fat"
+    },
+    {
+      "concept": "fibroadenoma"
+    },
+    {
+      "concept": "fibrocystic changes"
+    },
+    {
+      "concept": "fibrosis"
+    },
+    {
+      "concept": "follicle"
+    },
+    {
+      "concept": "gland"
+    },
+    {
+      "concept": "glands"
+    },
+    {
+      "concept": "glandular"
+    },
+    {
+      "concept": "glomerulus"
+    },
+    {
+      "concept": "hemorrhage"
+    },
+    {
+      "concept": "highgrade dysplasia"
+    },
+    {
+      "concept": "hyperplastic polyp"
+    },
+    {
+      "concept": "in situ carcinoma"
+    },
+    {
+      "concept": "infiltration"
+    },
+    {
+      "concept": "inflammation"
+    },
+    {
+      "concept": "inflammatory infiltrate"
+    },
+    {
+      "concept": "invasive carcinoma"
+    },
+    {
+      "concept": "invasive melanoma"
+    },
+    {
+      "concept": "invasive non-special type carcinoma"
+    },
+    {
+      "concept": "kaposi’s sarcoma"
+    },
+    {
+      "concept": "keratin"
+    },
+    {
+      "concept": "keratinized squamous epithelium (anal skin)"
+    },
+    {
+      "concept": "lamina propria"
+    },
+    {
+      "concept": "large bowel"
+    },
+    {
+      "concept": "large bowel crypts"
+    },
+    {
+      "concept": "lipogranuloma"
+    },
+    {
+      "concept": "lobular carcinoma"
+    },
+    {
+      "concept": "lobular invasive carcinoma"
+    },
+    {
+      "concept": "lowgrade dysplasia"
+    },
+    {
+      "concept": "lymph node"
+    },
+    {
+      "concept": "lymphocyte"
+    },
+    {
+      "concept": "lymphocytic infiltrate"
+    },
+    {
+      "concept": "lymphoid aggregates"
+    },
+    {
+      "concept": "lymphovascular channels"
+    },
+    {
+      "concept": "malignancy"
+    },
+    {
+      "concept": "malignant phyllodes tumor"
+    },
+    {
+      "concept": "melanoma"
+    },
+    {
+      "concept": "melanoma in situ"
+    },
+    {
+      "concept": "mercel cell carcinoma"
+    },
+    {
+      "concept": "mucinous carcinoma"
+    },
+    {
+      "concept": "mucous glands"
+    },
+    {
+      "concept": "mucus"
+    },
+    {
+      "concept": "muscle"
+    },
+    {
+      "concept": "necrosis"
+    },
+    {
+      "concept": "neoplastic infiltrate"
+    },
+    {
+      "concept": "nerve fiber"
+    },
+    {
+      "concept": "nerves"
+    },
+    {
+      "concept": "neural tissue"
+    },
+    {
+      "concept": "nevus"
+    },
+    {
+      "concept": "normal"
+    },
+    {
+      "concept": "normal ducts"
+    },
+    {
+      "concept": "normal lobules"
+    },
+    {
+      "concept": "normal tissue"
+    },
+    {
+      "concept": "papillary carcinoma"
+    },
+    {
+      "concept": "phyllodes tumor"
+    },
+    {
+      "concept": "pigment"
+    },
+    {
+      "concept": "pleura"
+    },
+    {
+      "concept": "polyp"
+    },
+    {
+      "concept": "sclerosing adenosis"
+    },
+    {
+      "concept": "sebaceous gland"
+    },
+    {
+      "concept": "seborrheic keratosis"
+    },
+    {
+      "concept": "serrated"
+    },
+    {
+      "concept": "sessile serrated lesion"
+    },
+    {
+      "concept": "simple columnar"
+    },
+    {
+      "concept": "small bowel"
+    },
+    {
+      "concept": "small bowel crypts"
+    },
+    {
+      "concept": "solar elastosis"
+    },
+    {
+      "concept": "squamous cell carcinoma"
+    },
+    {
+      "concept": "stratified squamous"
+    },
+    {
+      "concept": "stroma"
+    },
+    {
+      "concept": "stroma healthy"
+    },
+    {
+      "concept": "surface epithelium"
+    },
+    {
+      "concept": "surface transitional cells"
+    },
+    {
+      "concept": "tubular adenoma"
+    },
+    {
+      "concept": "tubule"
+    },
+    {
+      "concept": "tumor"
+    },
+    {
+      "concept": "tumor epithelial"
+    },
+    {
+      "concept": "tumor necrosis"
+    },
+    {
+      "concept": "tumor non-small cell"
+    },
+    {
+      "concept": "tumor small cell"
+    },
+    {
+      "concept": "tumor soft"
+    },
+    {
+      "concept": "tumor-associated stroma"
+    },
+    {
+      "concept": "typical ductal hyperplasia"
+    },
+    {
+      "concept": "vessel"
+    },
+    {
+      "concept": "wart"
+    }
+  ]
+}

@@ -1,0 +1,914 @@
+{
+  "scope": "Pretraining object names: explicit synonym equivalence, not ancestry or visual similarity.",
+  "source": "umls_concept_hierarchy.json (153 level-specific entries, 148 distinct object names); reviewed lexical variants; glandular/glanular requested by operator.",
+  "notes": [
+    "No automatic CUI merging: local mappings such as keratin/cytokeratin and lymphoid aggregates/Peyer patch are not used as synonym equivalence.",
+    "Broad/qualified concepts stay separate, including gland/adenosis, tumor/carcinoma, lymphocyte/plasma cell, and tissue/cell identities.",
+    "Unknown names match only their normalized exact spelling. Ambiguous abbreviated pool labels retain their own group.",
+    "glanular and mercel cell carcinoma are explicit spelling corrections, not fuzzy matching."
+  ],
+  "groups": [
+    {
+      "canonical": "acinus",
+      "aliases": [
+        "acini"
+      ]
+    },
+    {
+      "canonical": "actinic keratosis",
+      "aliases": [
+        "actinic keratoses",
+        "solar keratoses",
+        "solar keratosis"
+      ]
+    },
+    {
+      "canonical": "adenocarcinoma",
+      "aliases": [
+        "adenocarcinomas"
+      ]
+    },
+    {
+      "canonical": "adenocarcinoma high grade",
+      "aliases": [
+        "high grade adenocarcinoma",
+        "high-grade adenocarcinoma"
+      ]
+    },
+    {
+      "canonical": "adenocarcinoma low grade",
+      "aliases": [
+        "low grade adenocarcinoma",
+        "low-grade adenocarcinoma"
+      ]
+    },
+    {
+      "canonical": "adenoma",
+      "aliases": [
+        "adenomas"
+      ]
+    },
+    {
+      "canonical": "adenoma high grade",
+      "aliases": [
+        "high grade adenoma",
+        "high-grade adenoma"
+      ]
+    },
+    {
+      "canonical": "adenoma low grade",
+      "aliases": [
+        "low grade adenoma",
+        "low-grade adenoma"
+      ]
+    },
+    {
+      "canonical": "adenosis",
+      "aliases": []
+    },
+    {
+      "canonical": "adipocyte",
+      "aliases": [
+        "adipocytes",
+        "fat cell",
+        "fat cells"
+      ]
+    },
+    {
+      "canonical": "adipose tissue",
+      "aliases": [
+        "adipose",
+        "fat",
+        "fat tissue",
+        "fatty tissue"
+      ]
+    },
+    {
+      "canonical": "alveolus",
+      "aliases": [
+        "alveoli",
+        "pulmonary alveoli",
+        "pulmonary alveolus"
+      ]
+    },
+    {
+      "canonical": "apocrine glands",
+      "aliases": [
+        "apocrine gland"
+      ]
+    },
+    {
+      "canonical": "apoptosis",
+      "aliases": [
+        "programmed cell death by apoptosis"
+      ]
+    },
+    {
+      "canonical": "basal cell carcinoma",
+      "aliases": [
+        "basal cell carcinomas"
+      ]
+    },
+    {
+      "canonical": "benign",
+      "aliases": []
+    },
+    {
+      "canonical": "benign lesion",
+      "aliases": [
+        "benign lesions"
+      ]
+    },
+    {
+      "canonical": "benign phyllodes tumor",
+      "aliases": [
+        "benign phyllodes tumors",
+        "benign phyllodes tumour",
+        "benign phyllodes tumours"
+      ]
+    },
+    {
+      "canonical": "benign tumor",
+      "aliases": [
+        "benign neoplasm",
+        "benign neoplasms",
+        "benign tumors",
+        "benign tumour",
+        "benign tumours"
+      ]
+    },
+    {
+      "canonical": "bronchial cartilage",
+      "aliases": []
+    },
+    {
+      "canonical": "bronchial glands",
+      "aliases": [
+        "bronchial gland"
+      ]
+    },
+    {
+      "canonical": "carcinoma",
+      "aliases": [
+        "carcinomas"
+      ]
+    },
+    {
+      "canonical": "carcinoma in situ",
+      "aliases": [
+        "in situ carcinoma",
+        "in-situ carcinoma"
+      ]
+    },
+    {
+      "canonical": "chronic inflammation fibrosis",
+      "aliases": [
+        "chronic inflammation and fibrosis"
+      ]
+    },
+    {
+      "canonical": "collagen",
+      "aliases": []
+    },
+    {
+      "canonical": "connective tissue",
+      "aliases": []
+    },
+    {
+      "canonical": "desmoplasia",
+      "aliases": [
+        "desmoplastic reaction"
+      ]
+    },
+    {
+      "canonical": "detritus",
+      "aliases": []
+    },
+    {
+      "canonical": "disease",
+      "aliases": []
+    },
+    {
+      "canonical": "duct",
+      "aliases": [
+        "ducts"
+      ]
+    },
+    {
+      "canonical": "ductal carcinoma",
+      "aliases": [
+        "ductal carcinomas"
+      ]
+    },
+    {
+      "canonical": "ductal carcinoma in situ (high-grade)",
+      "aliases": [
+        "high grade ductal carcinoma in situ",
+        "high-grade dcis",
+        "high-grade ductal carcinoma in situ"
+      ]
+    },
+    {
+      "canonical": "ductal carcinoma in situ (low-grade)",
+      "aliases": [
+        "low grade ductal carcinoma in situ",
+        "low-grade dcis",
+        "low-grade ductal carcinoma in situ"
+      ]
+    },
+    {
+      "canonical": "elastic fibers",
+      "aliases": [
+        "elastic fiber",
+        "elastic fibre",
+        "elastic fibres"
+      ]
+    },
+    {
+      "canonical": "endothelial cell",
+      "aliases": [
+        "endothelial cells"
+      ]
+    },
+    {
+      "canonical": "eosinophil",
+      "aliases": [
+        "eosinophilic granulocyte",
+        "eosinophilic granulocytes",
+        "eosinophils"
+      ]
+    },
+    {
+      "canonical": "epidermis",
+      "aliases": [
+        "epidermal tissue"
+      ]
+    },
+    {
+      "canonical": "epithelial cell",
+      "aliases": [
+        "epithelial cells"
+      ]
+    },
+    {
+      "canonical": "epithelium",
+      "aliases": [
+        "epithelial tissue"
+      ]
+    },
+    {
+      "canonical": "erythrocyte",
+      "aliases": [
+        "erythrocytes",
+        "red blood cell",
+        "red blood cells"
+      ]
+    },
+    {
+      "canonical": "fibroadenoma",
+      "aliases": [
+        "fibroadenomas"
+      ]
+    },
+    {
+      "canonical": "fibroblast",
+      "aliases": [
+        "fibroblasts"
+      ]
+    },
+    {
+      "canonical": "fibrocystic changes",
+      "aliases": [
+        "fibrocystic change"
+      ]
+    },
+    {
+      "canonical": "fibrosis",
+      "aliases": [
+        "fibrotic tissue"
+      ]
+    },
+    {
+      "canonical": "follicle",
+      "aliases": [
+        "follicles"
+      ]
+    },
+    {
+      "canonical": "ganglion cells",
+      "aliases": [
+        "ganglion cell"
+      ]
+    },
+    {
+      "canonical": "gland",
+      "aliases": [
+        "gland tissue",
+        "glands",
+        "glandular",
+        "glandular tissue",
+        "glanular"
+      ]
+    },
+    {
+      "canonical": "glomerulus",
+      "aliases": [
+        "glomeruli",
+        "renal glomeruli",
+        "renal glomerulus"
+      ]
+    },
+    {
+      "canonical": "goblet cell",
+      "aliases": [
+        "goblet cells"
+      ]
+    },
+    {
+      "canonical": "hemorrhage",
+      "aliases": [
+        "haemorrhage"
+      ]
+    },
+    {
+      "canonical": "hepatocyte",
+      "aliases": [
+        "hepatocytes"
+      ]
+    },
+    {
+      "canonical": "highgrade dysplasia",
+      "aliases": [
+        "high grade dysplasia",
+        "high-grade dysplasia"
+      ]
+    },
+    {
+      "canonical": "hyperplastic polyp",
+      "aliases": [
+        "hyperplastic polyps"
+      ]
+    },
+    {
+      "canonical": "infiltration",
+      "aliases": []
+    },
+    {
+      "canonical": "inflammation",
+      "aliases": []
+    },
+    {
+      "canonical": "inflammatory cell",
+      "aliases": [
+        "inflammatory cells"
+      ]
+    },
+    {
+      "canonical": "inflammatory infiltrate",
+      "aliases": [
+        "inflammatory cell infiltrate",
+        "inflammatory infiltrates"
+      ]
+    },
+    {
+      "canonical": "invasive carcinoma",
+      "aliases": [
+        "infiltrating carcinoma",
+        "invasive carcinomas"
+      ]
+    },
+    {
+      "canonical": "invasive melanoma",
+      "aliases": [
+        "invasive melanomas"
+      ]
+    },
+    {
+      "canonical": "invasive non-special type carcinoma",
+      "aliases": [
+        "invasive carcinoma of no special type",
+        "invasive carcinoma of no special type (nst)",
+        "invasive carcinoma of no-special type"
+      ]
+    },
+    {
+      "canonical": "kaposi’s sarcoma",
+      "aliases": [
+        "kaposi sarcoma",
+        "kaposi's sarcoma"
+      ]
+    },
+    {
+      "canonical": "keratin",
+      "aliases": []
+    },
+    {
+      "canonical": "keratinized squamous epithelium (anal skin)",
+      "aliases": [
+        "keratinised squamous epithelium (anal skin)"
+      ]
+    },
+    {
+      "canonical": "lamina propria",
+      "aliases": []
+    },
+    {
+      "canonical": "large bowel",
+      "aliases": [
+        "large intestine"
+      ]
+    },
+    {
+      "canonical": "large bowel crypts",
+      "aliases": [
+        "large bowel crypt",
+        "large intestinal crypt",
+        "large intestinal crypts"
+      ]
+    },
+    {
+      "canonical": "lipogranuloma",
+      "aliases": [
+        "lipogranulomas"
+      ]
+    },
+    {
+      "canonical": "lobular carcinoma",
+      "aliases": [
+        "lobular carcinomas"
+      ]
+    },
+    {
+      "canonical": "lobular invasive carcinoma",
+      "aliases": [
+        "invasive lobular carcinoma",
+        "invasive lobular carcinomas"
+      ]
+    },
+    {
+      "canonical": "lowgrade dysplasia",
+      "aliases": [
+        "low grade dysplasia",
+        "low-grade dysplasia"
+      ]
+    },
+    {
+      "canonical": "lymph node",
+      "aliases": [
+        "lymph nodes"
+      ]
+    },
+    {
+      "canonical": "lymphocyte",
+      "aliases": [
+        "lymphocytes"
+      ]
+    },
+    {
+      "canonical": "lymphocytic infiltrate",
+      "aliases": [
+        "lymphocyte infiltrate",
+        "lymphocytic infiltrates"
+      ]
+    },
+    {
+      "canonical": "lymphoid aggregates",
+      "aliases": [
+        "lymphoid aggregate"
+      ]
+    },
+    {
+      "canonical": "lymphovascular channels",
+      "aliases": [
+        "lymphovascular channel"
+      ]
+    },
+    {
+      "canonical": "macrophage",
+      "aliases": [
+        "macrophages"
+      ]
+    },
+    {
+      "canonical": "malignancy",
+      "aliases": [
+        "malignant neoplasm",
+        "malignant neoplasms",
+        "malignant tumor",
+        "malignant tumors",
+        "malignant tumour",
+        "malignant tumours"
+      ]
+    },
+    {
+      "canonical": "malignant phyllodes tumor",
+      "aliases": [
+        "malignant phyllodes tumors",
+        "malignant phyllodes tumour",
+        "malignant phyllodes tumours"
+      ]
+    },
+    {
+      "canonical": "melanoma",
+      "aliases": [
+        "melanomas"
+      ]
+    },
+    {
+      "canonical": "melanoma in situ",
+      "aliases": [
+        "in situ melanoma",
+        "in-situ melanoma"
+      ]
+    },
+    {
+      "canonical": "merkel cell carcinoma",
+      "aliases": [
+        "mercel cell carcinoma",
+        "merkel cell carcinomas"
+      ]
+    },
+    {
+      "canonical": "mitosis",
+      "aliases": [
+        "mitoses",
+        "mitotic",
+        "mitotic figure",
+        "mitotic figures"
+      ]
+    },
+    {
+      "canonical": "mononuclear cells",
+      "aliases": [
+        "mononuclear cell"
+      ]
+    },
+    {
+      "canonical": "mucinous carcinoma",
+      "aliases": [
+        "mucinous carcinomas"
+      ]
+    },
+    {
+      "canonical": "mucous glands",
+      "aliases": [
+        "mucous gland"
+      ]
+    },
+    {
+      "canonical": "mucus",
+      "aliases": []
+    },
+    {
+      "canonical": "muscle",
+      "aliases": [
+        "muscle tissue",
+        "muscular tissue"
+      ]
+    },
+    {
+      "canonical": "necrosis",
+      "aliases": [
+        "necrotic tissue"
+      ]
+    },
+    {
+      "canonical": "neoplastic cell",
+      "aliases": [
+        "neoplastic cells",
+        "tumor cell",
+        "tumor cells",
+        "tumour cell",
+        "tumour cells"
+      ]
+    },
+    {
+      "canonical": "neoplastic infiltrate",
+      "aliases": [
+        "neoplastic infiltrates",
+        "tumor infiltrate",
+        "tumour infiltrate"
+      ]
+    },
+    {
+      "canonical": "nerve fiber",
+      "aliases": [
+        "nerve fibers",
+        "nerve fibre",
+        "nerve fibres"
+      ]
+    },
+    {
+      "canonical": "nerves",
+      "aliases": [
+        "nerve"
+      ]
+    },
+    {
+      "canonical": "neural tissue",
+      "aliases": [
+        "nerve tissue",
+        "nervous tissue"
+      ]
+    },
+    {
+      "canonical": "neutrophil",
+      "aliases": [
+        "neutrophilic granulocyte",
+        "neutrophilic granulocytes",
+        "neutrophils"
+      ]
+    },
+    {
+      "canonical": "nevus",
+      "aliases": [
+        "naevi",
+        "naevus",
+        "nevi"
+      ]
+    },
+    {
+      "canonical": "non tumor",
+      "aliases": [
+        "non tumour",
+        "non-tumor",
+        "non-tumour"
+      ]
+    },
+    {
+      "canonical": "normal",
+      "aliases": [
+        "normal tissue"
+      ]
+    },
+    {
+      "canonical": "normal ducts",
+      "aliases": [
+        "normal duct"
+      ]
+    },
+    {
+      "canonical": "normal lobules",
+      "aliases": [
+        "normal lobule"
+      ]
+    },
+    {
+      "canonical": "papillary carcinoma",
+      "aliases": [
+        "papillary carcinomas"
+      ]
+    },
+    {
+      "canonical": "phyllodes tumor",
+      "aliases": [
+        "phyllodes tumors",
+        "phyllodes tumour",
+        "phyllodes tumours"
+      ]
+    },
+    {
+      "canonical": "pigment",
+      "aliases": [
+        "pigments"
+      ]
+    },
+    {
+      "canonical": "plasma cell",
+      "aliases": [
+        "plasma cells",
+        "plasmacyte",
+        "plasmacytes"
+      ]
+    },
+    {
+      "canonical": "pleura",
+      "aliases": [
+        "pleural tissue"
+      ]
+    },
+    {
+      "canonical": "pneumocyte",
+      "aliases": [
+        "alveolar epithelial cell",
+        "alveolar epithelial cells",
+        "pneumocytes"
+      ]
+    },
+    {
+      "canonical": "polymorphonuclear cells",
+      "aliases": [
+        "polymorphonuclear cell",
+        "polymorphonuclear leucocytes",
+        "polymorphonuclear leukocytes"
+      ]
+    },
+    {
+      "canonical": "polyp",
+      "aliases": [
+        "polyps"
+      ]
+    },
+    {
+      "canonical": "sclerosing adenosis",
+      "aliases": []
+    },
+    {
+      "canonical": "sebaceous gland",
+      "aliases": [
+        "sebaceous glands"
+      ]
+    },
+    {
+      "canonical": "seborrheic keratosis",
+      "aliases": [
+        "seborrheic keratoses",
+        "seborrhoeic keratoses",
+        "seborrhoeic keratosis"
+      ]
+    },
+    {
+      "canonical": "serrated",
+      "aliases": []
+    },
+    {
+      "canonical": "sessile serrated lesion",
+      "aliases": [
+        "sessile serrated adenoma",
+        "sessile serrated adenoma/polyp",
+        "sessile serrated adenomas",
+        "sessile serrated adenomas/polyps",
+        "sessile serrated lesions",
+        "sessile serrated polyp",
+        "sessile serrated polyps"
+      ]
+    },
+    {
+      "canonical": "simple columnar",
+      "aliases": [
+        "simple columnar epithelium"
+      ]
+    },
+    {
+      "canonical": "small bowel",
+      "aliases": [
+        "small intestine"
+      ]
+    },
+    {
+      "canonical": "small bowel crypts",
+      "aliases": [
+        "small bowel crypt",
+        "small intestinal crypt",
+        "small intestinal crypts"
+      ]
+    },
+    {
+      "canonical": "smooth muscle cell",
+      "aliases": [
+        "smooth muscle cells"
+      ]
+    },
+    {
+      "canonical": "solar elastosis",
+      "aliases": [
+        "actinic elastosis"
+      ]
+    },
+    {
+      "canonical": "squamous cell carcinoma",
+      "aliases": [
+        "squamous cell carcinomas"
+      ]
+    },
+    {
+      "canonical": "stratified squamous",
+      "aliases": [
+        "stratified squamous epithelium"
+      ]
+    },
+    {
+      "canonical": "stroma",
+      "aliases": [
+        "stromal tissue"
+      ]
+    },
+    {
+      "canonical": "stroma healthy",
+      "aliases": [
+        "healthy stroma",
+        "normal stroma"
+      ]
+    },
+    {
+      "canonical": "stromal cell",
+      "aliases": [
+        "stromal cells"
+      ]
+    },
+    {
+      "canonical": "surface epithelium",
+      "aliases": []
+    },
+    {
+      "canonical": "surface transitional cells",
+      "aliases": [
+        "surface transitional cell"
+      ]
+    },
+    {
+      "canonical": "tubular adenoma",
+      "aliases": [
+        "tubular adenomas"
+      ]
+    },
+    {
+      "canonical": "tubule",
+      "aliases": [
+        "tubules"
+      ]
+    },
+    {
+      "canonical": "tumor",
+      "aliases": [
+        "neoplasm",
+        "neoplasms",
+        "tumors",
+        "tumour",
+        "tumours"
+      ]
+    },
+    {
+      "canonical": "tumor epithelial",
+      "aliases": [
+        "tumor epithelium",
+        "tumour epithelial",
+        "tumour epithelium"
+      ]
+    },
+    {
+      "canonical": "tumor necrosis",
+      "aliases": [
+        "tumour necrosis"
+      ]
+    },
+    {
+      "canonical": "tumor non-small cell",
+      "aliases": [
+        "non small cell tumor",
+        "non small cell tumour",
+        "non-small cell tumor",
+        "non-small cell tumour",
+        "tumour non-small cell"
+      ]
+    },
+    {
+      "canonical": "tumor small cell",
+      "aliases": [
+        "small cell tumor",
+        "small cell tumour",
+        "tumour small cell"
+      ]
+    },
+    {
+      "canonical": "tumor soft",
+      "aliases": [
+        "tumour soft"
+      ]
+    },
+    {
+      "canonical": "tumor-associated stroma",
+      "aliases": [
+        "tumor associated stroma",
+        "tumor stroma",
+        "tumour associated stroma",
+        "tumour stroma",
+        "tumour-associated stroma"
+      ]
+    },
+    {
+      "canonical": "typical ductal hyperplasia",
+      "aliases": [
+        "usual ductal hyperplasia"
+      ]
+    },
+    {
+      "canonical": "vessel",
+      "aliases": [
+        "blood vessel",
+        "blood vessels",
+        "vessels"
+      ]
+    },
+    {
+      "canonical": "wart",
+      "aliases": [
+        "warts"
+      ]
+    }
+  ],
+  "references": [
+    "https://www.ncbi.nlm.nih.gov/books/NBK570917/table/ch1.tab1/?report=objectonly",
+    "https://evs.nci.nih.gov/ftp1/CDISC/SEND/Archive/SEND%20Terminology%202023-09-29.pdf"
+  ]
+}
