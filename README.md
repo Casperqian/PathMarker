@@ -2,7 +2,7 @@
 
 **A Unified Foundation Model for Quantitative Tumor Profiling and Interpretable Biomarker Discovery**
 
-[Installation](#installation) · [Segmentation](#segmentation) · [Tumor profiling](#tumor-profiling) · [Clinical prediction and biomarker discovery](#clinical-prediction-and-biomarker-discovery)
+[Model weights](https://huggingface.co/Casperhhh/PathMarker) · [Installation](#installation) · [Segmentation](#segmentation) · [Tumor profiling](#tumor-profiling) · [Clinical prediction and biomarker discovery](#clinical-prediction-and-biomarker-discovery)
 
 ## Abstract
 
