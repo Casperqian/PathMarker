@@ -2,7 +2,7 @@
 
 **A Unified Foundation Model for Quantitative Tumor Profiling and Interpretable Biomarker Discovery**
 
-[![Hugging Face model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model%20weights-blue)](https://huggingface.co/Casperhhh/PathMarker)
+[![Hugging Face model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue)](https://huggingface.co/Casperhhh/PathMarker)
 
 [Installation](#installation) · [Segmentation](#segmentation) · [Tumor profiling](#tumor-profiling) · [Clinical prediction and biomarker discovery](#clinical-prediction-and-biomarker-discovery)
 
